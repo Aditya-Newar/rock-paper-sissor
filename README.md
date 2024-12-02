@@ -1,1 +1,1 @@
-# rock-paper-sissor game {my mini project using javascript html & css}
+# rock-paper-sissor game {my 2nd mini project using javascript html & css}
