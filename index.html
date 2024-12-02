@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/rock-paper-sissor/style.css">
+    <title>SPR Game</title>
+</head>
+<body>
+    <header>
+        <h1>Scissor Paper Rock</h1>
+    </header>
+    <main>
+        <div class="choices">
+            <div class="choice" id="scissors" aria-label="Choose Scissors">
+                <img src="/rock-paper-sissor/photos/scissors.png" alt="Choose Scissors">
+            </div>
+            <div class="choice" id="paper" aria-label="Choose Paper">
+                <img src="/rock-paper-sissor/photos/paper.png" alt="Choose Paper">
+            </div>
+            <div class="choice" id="rock" aria-label="Choose Rock">
+                <img src="/rock-paper-sissor/photos/rock.png" alt="Choose Rock">
+            </div>
+        </div>
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Make Your Move</p>
+        </div>
+    </main>
+    <script src="/rock-paper-sissor/script.js"></script>
+</body>
+</html>
